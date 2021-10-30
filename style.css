@@ -1,0 +1,281 @@
+body{
+    margin:0px;
+}
+.fixed-header{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    box-shadow: 2px 0px 10px rgb(0, 0, 0);
+    z-index: 2000;
+}
+.fh-right{
+    width: 20%;
+    float: right;
+    height: 100%;
+    border-left:1px solid grey;
+}
+.fh-right .item-right{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.fh-right .daftar{
+    background-color: #244B9C;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.fh-right .daftar:hover{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.fh-right .masuk{
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    padding: 7px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+.fh-right .masuk:hover{
+    background-color: #244B9C;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+}
+.fh-center{
+    width: 60%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    border-left: 1px solid grey;
+}
+
+.fh-center .search{
+    width: 330px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 300px;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 20px;
+}
+.fh-center .search #input{
+    border: none;
+    padding: 10px;
+    width: 250px;
+    background: none;
+    outline: none;
+    
+}
+
+
+.fh-center .search #button{
+    width: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
+.fh-center .search #button img{
+    width: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
+
+.fh-left{
+    width: 20%;
+}
+.fh-left .logo img{
+    width: 200px;
+    margin:10px 20px 10px;
+}
+
+
+.container{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    
+}
+
+
+
+.container .header .title img{
+    width: 250px;
+    margin-top: 85px;
+    margin-bottom:20px;
+    margin-left: 5px;
+    
+}
+
+
+.navigation ul{
+    
+    margin-block-start: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #21409a 50%, #007cbd 100%);
+    margin-bottom: 20px;
+    
+}
+
+.navigation ul li{
+    display: inline-block;
+    margin: 10px 0px 10px;
+    
+    
+}
+
+
+.navigation ul li a {
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left:20px;
+    color : white;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover{
+    color : gold;
+    cursor: pointer;
+    
+}
+
+
+
+ 
+.content{
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+.headcontent{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headcontent .link-grid-content{
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+.headcontent .link-grid-content:hover, .headcontent .link-grid-content:focus{
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+    
+    
+}
+
+.headcontent .grid-content{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.headcontent .grid-content .top-img-grid img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.headcontent .grid-content .top-text-grid p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content-bottom{
+    height: 300px;
+    width: 100%;
+}
+
+.content .content-bottom .content-left{
+    float: left;
+    width: 60%;
+    overflow: hidden;
+}
+
+.fitur{
+    overflow: hidden;
+    margin-bottom: 320px;
+    border-radius: 10px;
+}
+
+.fitur-img-wrapper{
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+}
+
+.fitur-img{
+    height: 100%;
+    background-image: url(img/bg2.jfif); 
+    background-size: cover;
+    transition: all .5s;
+}
+.fitur-img:hover, fitur-img:focus{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.fitur-img-text{
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.fitur-img-text .fitur-text-title{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.fitur-img-text .fitur-text-title:hover, .fitur-text-title:focus{
+    color: gold;
+    cursor: pointer;
+}
+
+
+.fitur-img-text .fitur-text-date{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.fitur-text-bottom{
+    height: 70px;
+    background-color: blue;
+}
+
+.content .content-bottom .content-right{
+    float: left;
+    background-color: blue;   
+    width: 40%; 
+}
+
+
+
+
+
+
